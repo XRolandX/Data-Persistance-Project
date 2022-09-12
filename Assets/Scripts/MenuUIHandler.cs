@@ -8,7 +8,7 @@ public class MenuUIHandler : MonoBehaviour
 {
 
 
-    public TextMeshProUGUI BestScoreText;
+    public TextMeshProUGUI BestScoreText; //dont forget that if you change this variable name you need attach canvas object to this script again
     public TextMeshProUGUI InputName;
 
 
