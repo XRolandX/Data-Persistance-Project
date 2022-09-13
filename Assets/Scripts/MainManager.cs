@@ -26,7 +26,7 @@ public class MainManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BestScoreText.text = $"Score : {SaveManager.Instance.bestPlayerName} : {SaveManager.Instance.bestCurrentScore}";
+        BestScoreText.text = $"Best score : {SaveManager.Instance.bestPlayerName} : {SaveManager.Instance.bestCurrentScore}";
 
         const float step = 0.6f;
         int perLine = Mathf.FloorToInt(4.0f / step);
@@ -92,6 +92,7 @@ public class MainManager : MonoBehaviour
 
     public void GameOver()
     {
+        SaveManager.Instance.SavePlayerData();
         BestScoreText.text = $"Score : {SaveManager.Instance.bestPlayerName} : {SaveManager.Instance.bestCurrentScore}";
 
         m_GameOver = true;

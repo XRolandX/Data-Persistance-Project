@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 739628738}
   - component: {fileID: 739628737}
   m_Layer: 5
-  m_Name: Score Text
+  m_Name: Best Score Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1735,5 +1735,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c34f228d842d1c64fb51ca5bb5a0d153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BestScoreText: {fileID: 0}
+  BestScoreText: {fileID: 739628737}
   InputName: {fileID: 1288137567}
